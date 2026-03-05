@@ -1,0 +1,138 @@
+{
+    "tableName": "ItemsTable",
+    "columns": [
+        {
+            "field": "StockItemName",
+            "title": "StockItemName",
+            "unique": false,
+            "type": "text",
+            "isInput": false,
+            "isAutoFocus": true,
+            "WidthOptions": {
+                "inPx": 300
+            },
+            "isDataList": true,
+            "dataListId": "StockItems"
+        },
+        {
+            "field": "Rate",
+            "title": "Rate",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "ShowTotal": false,
+            "footerFormatter": "",
+            "showRupee": true,
+            "align": "right",
+            "WidthOptions": {
+                "inPx": 250
+            }
+        },
+        {
+            "field": "Qty",
+            "title": "Qty",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "ShowTotal": true,
+            "footerFormatter": "TotalFormatter",
+            "showRupee": false,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "Amount",
+            "title": "Amount",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "ShowTotal": true,
+            "footerFormatter": "TotalFormatter",
+            "enterCal": "Rate*Qty",
+            "showRupee": true,
+            "align": "right",
+            "WidthOptions": {
+                "inPx": 250
+            }
+        }
+    ],
+    "data": [],
+    "Vertical": [
+        {
+            "field": "StockItemName",
+            "title": "StockItemName",
+            "unique": false,
+            "type": "text",
+            "isInput": false,
+            "isAutoFocus": true,
+            "WidthOptions": {
+                "inPx": 300
+            },
+            "isDataList": true,
+            "dataListId": "StockItems"
+        },
+        {
+            "field": "Rate",
+            "title": "Rate",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "ShowTotal": false,
+            "footerFormatter": "",
+            "showRupee": true,
+            "align": "right",
+            "WidthOptions": {
+                "inPx": 250
+            }
+        },
+        {
+            "field": "Qty",
+            "title": "Qty",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "ShowTotal": true,
+            "footerFormatter": "TotalFormatter",
+            "showRupee": false,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "Amount",
+            "title": "Amount",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "ShowTotal": true,
+            "footerFormatter": "TotalFormatter",
+            "showRupee": true,
+            "align": "right",
+            "WidthOptions": {
+                "inPx": 250
+            }
+        }
+    ],
+    "DataTableOptions": {
+        "Header": {
+            "autoFocus": "ItemName"
+        }
+    },
+    "NonSecured": {
+        "SubRoutes": [
+            "Read",
+            "Insert"
+        ]
+    },
+    "SubRoutes": [
+        "Read",
+        "Insert"
+    ],
+    "DependantTables": [
+        "StockItems"
+    ],
+    "ForeignkeyTables": [
+        "BillsTable"
+    ]
+}

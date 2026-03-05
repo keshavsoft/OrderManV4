@@ -1,0 +1,8 @@
+POST http://localhost:3000/V1/StockItems/Pipe 
+Content-Type: application/json
+
+{
+  "StockItemName": "",
+  "StockItemReservedName": "",
+  "StockItemType": ""
+}
