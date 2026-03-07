@@ -135,14 +135,15 @@
     ],
     "DependantTables": [
         "LedgerNames"
-    ],"SubRoutes": [
+    ],
+    "SubRoutes": [
         "Read",
         "Insert"
     ],
     "NonSecured": {
         "SubRoutes": [
             "Read",
-            "Pipe"
+            "Insert"
         ]
     }
 }
