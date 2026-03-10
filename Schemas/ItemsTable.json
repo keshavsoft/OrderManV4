@@ -116,19 +116,15 @@
     ],
     "DataTableOptions": {
         "Header": {
-            "autoFocus": "ItemName"
+            "autoFocus": "StockItemName"
         }
     },
     "NonSecured": {
         "SubRoutes": [
-            "Read",
+            "ShowAll",
             "Insert"
         ]
     },
-    "SubRoutes": [
-        "Read",
-        "Insert"
-    ],
     "DependantTables": [
         "StockItems"
     ],
