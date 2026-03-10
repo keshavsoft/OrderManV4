@@ -1,1 +1,1 @@
-GET http://localhost:3000/V2/BillsTable/Read/2
+GET http://localhost:3000/V3/ItemsTable/Find

@@ -49,3 +49,7 @@ primay reason for this repo is to build dynamic end points complete programatica
 ### 1.1.1
 
 schemas modified 
+
+### 1.4.1
+
+vertical perfect, no redirect

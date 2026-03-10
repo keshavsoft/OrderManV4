@@ -1,8 +1,1 @@
 POST http://localhost:3000/V1/LedgerNames/Insert
-Content-Type: application/json
-
-{
-  "StockItemName": "",
-  "StockItemReservedName": "",
-  "StockItemType": ""
-}
