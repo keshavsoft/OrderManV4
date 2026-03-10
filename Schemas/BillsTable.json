@@ -127,7 +127,7 @@
     ],
     "DataTableOptions": {
         "Header": {
-            "autoFocus": "ItemName"
+            "autoFocus": "LedgerName"
         }
     },
     "ForeignkeyTables": [
@@ -136,14 +136,11 @@
     "DependantTables": [
         "LedgerNames"
     ],
-    "SubRoutes": [
-        "Read",
-        "Insert"
-    ],
     "NonSecured": {
         "SubRoutes": [
-            "Read",
-            "Insert"
+            "ShowAll",
+            "Insert",
+            "Find"
         ]
     }
 }

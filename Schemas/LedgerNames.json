@@ -27,16 +27,13 @@
     "Vertical": [],
     "DataTableOptions": {
         "Header": {
-            "autoFocus": "title"
+            "autoFocus": "LedgerName"
         }
     },
-    "SubRoutes": [
-        "Read",
-        "Insert"
-    ],
     "NonSecured": {
         "SubRoutes": [
-            "Read",
+            "ShowAll",
+            "Insert",
             "Pipe"
         ]
     }

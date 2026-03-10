@@ -27,17 +27,14 @@
     "Vertical": [],
     "DataTableOptions": {
         "Header": {
-            "autoFocus": "title"
+            "autoFocus": "StockItemName"
         }
     },
-    "SubRoutes": [
-        "Read",
-        "Insert"
-    ],
     "NonSecured": {
         "SubRoutes": [
-            "Read",
-            "Pipe"
+            "ShowAll",
+            "Pipe",
+            "Insert"
         ]
     }
 }
