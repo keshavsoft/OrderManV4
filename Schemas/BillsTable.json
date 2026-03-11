@@ -140,7 +140,10 @@
         "SubRoutes": [
             "ShowAll",
             "Insert",
-            "Find"
+            "Find",
+            "InsertAndReturnPk",
+            "FindWithForeignData",
+            "InsertToTally"
         ]
     }
 }

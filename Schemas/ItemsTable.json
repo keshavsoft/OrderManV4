@@ -2,8 +2,8 @@
     "tableName": "ItemsTable",
     "columns": [
         {
-            "field": "StockItemName",
-            "title": "StockItemName",
+            "field": "ItemName",
+            "title": "ItemName",
             "unique": false,
             "type": "text",
             "isInput": false,
@@ -55,6 +55,20 @@
             "WidthOptions": {
                 "inPx": 250
             }
+        },
+        {
+            "field": "TaxPer",
+            "title": "TaxPer",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "defaultvalue": 18
+        },
+        {
+            "field": "Uom",
+            "title": "Uom",
+            "unique": false,
+            "defaultvalue": "Nos"
         }
     ],
     "data": [],
@@ -122,7 +136,8 @@
     "NonSecured": {
         "SubRoutes": [
             "ShowAll",
-            "Insert"
+            "Insert",
+            "InsertAndReturnPk"
         ]
     },
     "DependantTables": [
