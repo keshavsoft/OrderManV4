@@ -12,7 +12,8 @@
             },
             "defaultvalue": "Keshav",
             "isDataList": true,
-            "dataListId": "LedgerNames"
+            "dataListId": "LedgerNames",
+            "isConsider": true
         },
         {
             "field": "LedgerParentName",
@@ -21,7 +22,8 @@
             "isInput": true,
             "WidthOptions": {
                 "inPx": 200
-            }
+            },
+            "isConsider": true
         },
         {
             "field": "LedgerGST",
@@ -31,7 +33,8 @@
             "isAutoFocus": true,
             "WidthOptions": {
                 "inPx": 200
-            }
+            },
+            "isConsider": true
         },
         {
             "field": "InvoiceNo",
@@ -40,7 +43,8 @@
             "isInput": true,
             "WidthOptions": {
                 "inPx": 200
-            }
+            },
+            "isConsider": true
         },
         {
             "field": "InvoiceDate",
@@ -50,7 +54,8 @@
             "WidthOptions": {
                 "inPx": 200
             },
-            "defaultvalue": "today"
+            "defaultvalue": "today",
+            "isConsider": true
         },
         {
             "field": "InvoiceStateCode",
@@ -59,7 +64,8 @@
             "isInput": true,
             "WidthOptions": {
                 "inPx": 200
-            }
+            },
+            "isConsider": true
         }
     ],
     "data": [],

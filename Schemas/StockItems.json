@@ -8,19 +8,22 @@
             "type": "text",
             "isInput": true,
             "isAutoFocus": true,
-            "defaultvalue": "KeshavSoft"
+            "defaultvalue": "KeshavSoft",
+            "isConsider": true
         },
         {
             "field": "StockItemReservedName",
             "title": "StockItemReservedName",
             "type": "text",
-            "isInput": true
+            "isInput": true,
+            "isConsider": true
         },
         {
             "field": "StockItemType",
             "title": "StockItemType",
             "type": "text",
-            "isInput": true
+            "isInput": true,
+            "isConsider": true
         }
     ],
     "data": [],
