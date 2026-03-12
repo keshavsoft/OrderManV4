@@ -57,7 +57,8 @@
             "align": "right",
             "WidthOptions": {
                 "inPx": 250
-            }
+            },
+            "isConsider": true
         },
         {
             "field": "TaxPer",
@@ -65,13 +66,15 @@
             "unique": false,
             "type": "number",
             "isNumber": true,
-            "defaultvalue": 18
+            "defaultvalue": 18,
+            "isConsider": true
         },
         {
             "field": "Uom",
             "title": "Uom",
             "unique": false,
-            "defaultvalue": "Nos"
+            "defaultvalue": "Nos",
+            "isConsider": true
         }
     ],
     "data": [],
