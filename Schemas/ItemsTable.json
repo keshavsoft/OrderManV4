@@ -12,7 +12,8 @@
                 "inPx": 300
             },
             "isDataList": true,
-            "dataListId": "StockItems"
+            "dataListId": "StockItems",
+            "isConsider": true
         },
         {
             "field": "Rate",
@@ -26,7 +27,8 @@
             "align": "right",
             "WidthOptions": {
                 "inPx": 250
-            }
+            },
+            "isConsider": true
         },
         {
             "field": "Qty",
@@ -39,7 +41,8 @@
             "showRupee": false,
             "WidthOptions": {
                 "inPx": 200
-            }
+            },
+            "isConsider": true
         },
         {
             "field": "Amount",

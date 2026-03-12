@@ -61,3 +61,7 @@ Ui 21 perfect
 ### 1.4.21.2
 
 Schema changed
+
+### 1.4.21.3
+
+Just now added new property name is considered. In item stable J *. 
