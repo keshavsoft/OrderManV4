@@ -2,8 +2,8 @@
     "tableName": "ItemsTable",
     "columns": [
         {
-            "field": "ItemName",
-            "title": "ItemName",
+            "field": "StockItemName",
+            "title": "StockItemName",
             "unique": false,
             "type": "text",
             "isInput": false,
@@ -13,7 +13,8 @@
             },
             "isDataList": true,
             "dataListId": "StockItems",
-            "isConsider": true
+            "isConsider": true,
+            "defaultvalue": "Shirt"
         },
         {
             "field": "Rate",
@@ -73,7 +74,9 @@
             "field": "Uom",
             "title": "Uom",
             "unique": false,
-            "defaultvalue": "Nos",
+            "type": "text",
+            "isNumber": false,
+            "defaultvalue": "",
             "isConsider": true
         }
     ],
@@ -132,6 +135,24 @@
             "WidthOptions": {
                 "inPx": 250
             }
+        },
+        {
+            "field": "TaxPer",
+            "title": "TaxPer",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "defaultvalue": 18,
+            "isConsider": true
+        },
+        {
+            "field": "Uom",
+            "title": "Uom",
+            "unique": false,
+            "type": "text",
+            "isNumber": false,
+            "defaultvalue": "",
+            "isConsider": true
         }
     ],
     "DataTableOptions": {
