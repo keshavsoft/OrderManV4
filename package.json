@@ -1,8 +1,8 @@
 {
   "name": "OrderManV4",
-  "version": "1.4.21.3",
+  "version": "1.4.21.4",
   "description": "",
-  "main": "/ForFrontEnd/V1/Builder/main.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
