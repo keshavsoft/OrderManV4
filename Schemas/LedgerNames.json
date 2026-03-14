@@ -39,5 +39,7 @@
             "Insert",
             "Pipe"
         ]
-    }
+    },
+    "PrimarykeyTableNames": [],
+    "PrimarykeyTables": []
 }

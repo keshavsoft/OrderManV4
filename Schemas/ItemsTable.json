@@ -152,5 +152,9 @@
     ],
     "ForeignkeyTables": [
         "BillsTable"
-    ]
+    ],
+    "PrimarykeyTableNames": [
+        "BillsTable"
+    ],
+    "PrimarykeyTables": []
 }
