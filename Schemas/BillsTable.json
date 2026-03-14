@@ -23,7 +23,8 @@
             "WidthOptions": {
                 "inPx": 200
             },
-            "isConsider": true
+            "isConsider": true,
+            "showInUi": false
         },
         {
             "field": "LedgerGST",
@@ -34,7 +35,8 @@
             "WidthOptions": {
                 "inPx": 200
             },
-            "isConsider": true
+            "isConsider": true,
+            "showInUi": false
         },
         {
             "field": "InvoiceNo",
@@ -65,7 +67,8 @@
             "WidthOptions": {
                 "inPx": 200
             },
-            "isConsider": true
+            "isConsider": true,
+            "showInUi": false
         }
     ],
     "data": [],

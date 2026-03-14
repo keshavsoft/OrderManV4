@@ -13,7 +13,8 @@
             },
             "isDataList": true,
             "dataListId": "StockItems",
-            "isConsider": true
+            "isConsider": true,
+            "showInUi": true
         },
         {
             "field": "Rate",
@@ -28,7 +29,8 @@
             "WidthOptions": {
                 "inPx": 250
             },
-            "isConsider": true
+            "isConsider": true,
+            "showInUi": true
         },
         {
             "field": "Qty",
@@ -42,7 +44,8 @@
             "WidthOptions": {
                 "inPx": 200
             },
-            "isConsider": true
+            "isConsider": true,
+            "showInUi": true
         },
         {
             "field": "Amount",
@@ -58,7 +61,8 @@
             "WidthOptions": {
                 "inPx": 250
             },
-            "isConsider": true
+            "isConsider": true,
+            "showInUi": false
         },
         {
             "field": "TaxPer",
@@ -67,14 +71,16 @@
             "type": "number",
             "isNumber": true,
             "defaultvalue": 18,
-            "isConsider": true
+            "isConsider": true,
+            "showInUi": true
         },
         {
             "field": "Uom",
             "title": "Uom",
             "unique": false,
             "defaultvalue": "Nos",
-            "isConsider": true
+            "isConsider": true,
+            "showInUi": false
         }
     ],
     "data": [],

@@ -73,3 +73,7 @@ items schema changed
 ### 1.4.21.5
 
 all schema changed
+
+### 1.4.21.6
+
+some schema changed for showInUi key
